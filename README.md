@@ -3,6 +3,8 @@
 ## Categories
 - [Docker](#docker)
 - [Netcat](#netcat)
+- [Wordcount](#wordcount)
+
 
 ## Docker
 Build docker image
@@ -22,6 +24,20 @@ nc -lv 8080
 Connect to port 8080 on localhost
 ```sh
 nc localhost 8080
+```
+
+## Wordcount
+Count number of lines
+```sh
+wc -l filename.txt
+```
+Count number of words
+```sh
+wc -w filename.txt
+```
+Count number of characters
+```sh
+wc -c filename.txt
 ```
 
 
